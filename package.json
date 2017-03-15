@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "dev": "nodemon --exec babel-node app.js",
+    "qa:lint": "eslint .",
+    "qa:test": "mocha -r babel-core/register {test,exercise}/**/*.test.js",
+    "qa:test:watch": "mocha -w -R min -r babel-core/register {test,exercise}/**/*.test.js",
+    "test": "yarn qa:lint && yarn qa:test"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "classnames": "^2.2.5",
+    "express": "^4.15.2",
+    "gravatar": "^1.6.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "enzyme": "^2.7.1",
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-config-standard-jsx": "^3.3.0",
+    "eslint-config-standard-react": "^4.3.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "react-addons-test-utils": "^15.4.2"
+  }
+}

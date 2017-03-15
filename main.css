@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  background-color: #fffeb3;
+}
+.card {
+  border: 1px solid #666547;
+  display: inline-block;
+  margin: 10px;
+  width: 200px;
+  background-color: #ffe28a;
+  padding-bottom: 10px;
+}
+
+.card__header, .card__link {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card__header {
+  font-size: 1.4em;
+}
+
+.card__link {
+  color: #fb2e01;
+  font-size: 0.8em;
+}
