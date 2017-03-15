@@ -2,10 +2,12 @@
 
 ## Setup
 
-`git clone git@github.com:clocklimited/TestingWorkshop.git`
-`cd TestingWorkshop`
-`yarn install`
-`yarn test`
+```
+git clone git@github.com:clocklimited/TestingWorkshop.git
+cd TestingWorkshop
+yarn install
+yarn test
+```
 
 ## Definitions
 
@@ -25,4 +27,4 @@
 
 1.1 Write a shorthand react `HelloWorld` component that outputs 'Hello World!' in a `p`.
 
-1.2 Write a test to ensure the above.
+1.2 Write a test to assert the above.
