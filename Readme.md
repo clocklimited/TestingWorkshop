@@ -2,10 +2,12 @@
 
 ## Setup
 
-`git clone git@github.com:clocklimited/TestingWorkshop.git`
-`cd TestingWorkshop`
-`yarn install`
-`yarn test`
+```
+git clone git@github.com:clocklimited/TestingWorkshop.git
+cd TestingWorkshop
+yarn install
+yarn test
+```
 
 ## Definitions
 
