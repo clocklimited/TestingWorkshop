@@ -1,5 +1,5 @@
 import React from 'react'
-import Contact, { ContactShape } from '../4-composition/Contact'
+import Contact from '../4-composition/Contact'
 import { url } from 'gravatar'
 
 const ContactList = ({ contacts = [] }) => {
@@ -17,7 +17,7 @@ const ContactList = ({ contacts = [] }) => {
 }
 
 ContactList.propTypes = {
-  contacts: React.PropTypes.arrayOf(ContactShape)
+  contacts: React.PropTypes.arrayOf(React.PropTypes.shape(Contact.propTypes))
 }
 
 export default ContactList

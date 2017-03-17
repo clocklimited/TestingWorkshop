@@ -15,7 +15,8 @@ const contacts = [
 describe('Exercise 4: Component: ContactList', function () {
   it('should show message if no `contacts` are passed', function () {
     const wrapper = shallow(<ContactList contacts={[]} />)
-    assert.equal(wrapper.childAt(0).html(), '<p>No contacts found</p>')
+    assert.equal(wrapper.childAt(0).type(), 'p')
+    assert.equal(wrapper.childAt(0).text(), 'No contacts found')
   })
 
   it('should only contain `Contact` components', function () {

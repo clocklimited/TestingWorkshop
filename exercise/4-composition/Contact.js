@@ -9,11 +9,10 @@ const Contact = ({ name, emailAddress, imageUrl }) => (
   </Card>
 )
 
-const ContactShape = Contact.propTypes = {
+Contact.propTypes = {
   name: React.PropTypes.string.isRequired,
   emailAddress: React.PropTypes.string,
   imageUrl: React.PropTypes.string
 }
 
-export { ContactShape }
 export default Contact
