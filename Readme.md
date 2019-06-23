@@ -1,5 +1,7 @@
 # Testing with ES6 and React Workshop
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/clocklimited/TestingWorkshop.svg)](https://greenkeeper.io/)
+
 ## Setup
 
 ```
